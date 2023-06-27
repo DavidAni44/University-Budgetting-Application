@@ -32,7 +32,7 @@ public class Main {
         System.out.println("How much do you spend monthly on bills");
         float Utilitybills = in.nextInt();
 
-        float remainingSalary = newSalary - monthlySavings - Utilitybills;
+        float remainingSalary = (newSalary - monthlySavings) - Utilitybills;
 
         System.out.println("Your monthly savings are £" +MSroundOff);
         System.out.println("Your monthly billings are £" +Utilitybills);
